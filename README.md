@@ -13,8 +13,7 @@ The environment can be installed via Anaconda: ``conda env create --file environ
 
 ## Run segmentation model
 
-The included Jupyter Notebook `` can be used to perform segmentation of voids using ensemble of 15 
-A jupyter notebook was included to run the voids segmentation model. Due to the size limit, the trained models can be downloaded from the link here.
+The included Jupyter Notebook `voids_segmentation_ensemble_model.ipynb` can be used to perform the semantic segmentation of voids using the ensemble of 15 segmentation models. Due to the size limit, the trained models can be downloaded from the [link]. 
 
 Folders test and testannot are the examples of the original TEM images and annotated binary mask files for the corresponding TEM images, which can be used to evaluate the model performance using the included ground truth annotations.
 
